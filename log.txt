@@ -1,0 +1,12 @@
+1.Use CSS sprites to load image icons. 
+
+June 4 2017 
+-structural change: created footer_button and asigned event listener for it dynamically using jquery 
+-dealt with text animation on the home page and back
+-Starting implementing time line on about me page 
+- !problem, need to deal with footer_button when user scroll up or down , 
+	solution 1 : disable scrolling function 
+	solution 2 : solved, adding eventlistener for mouse wheel up and down to handle state changes for the button 
+ 
+
+
