@@ -14,7 +14,19 @@ $.fn.preload = function() {
     });
 }
 var images =['images/Steven.jpg','images/soccer.jpg',
-'images/Toronto.jpg','images/beginner.jpg','images/level1.png'];
+'images/Toronto.jpg','images/beginner.jpg','images/level1.png',
+'https://wallpaperscraft.com/image/line_light_background_bright_43975_2560x1600.jpg',
+'http://digitallearning.eletsonline.com/wp-content/uploads/2015/05/EngineeringSkills.jpg',
+'http://images.stockunlimited.net/preview1300/collection-of-hobby-icons_1753303.jpg',
+'https://i1.wp.com/eventosygraduaciones.com/wp-content/uploads/2017/01/cropped-graduadologo.png?fit=300%2C300',
+'https://images7.alphacoders.com/333/333217.jpg','http://displ.net/wp-content/uploads/2016/04/responsive.png',
+'https://crowdsourcedtesting.com/resources/wp-content/uploads/2016/01/DevOps-Gear.png',
+'https://uberflip.cdntwrk.com/files/aHViPTU5NTQzJmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzU3N2VhZmE3MmNkZDkucG5nJnZlcnNpb249MDAwMCZzaWc9NWU1YTc5NmU2NjQ0ZmQ2YzE5MzkzY2Y3MTU3ZjdlNTA%253D',
+'http://www.freeiconspng.com/uploads/3d-question-mark-icon-blue-color-picture-6.png',
+'http://www.ryerson.ca/content/dam/admissions/Ryerson-university-quad-south-view.jpg',
+'http://wallpaper-gallery.net/images/sadness-wallpapers-desktop/sadness-wallpapers-desktop-24.jpg',
+'http://eskipaper.com/images/cloud-background-2.jpg'
+];
 
 window.onload = function(){
   $('#page0').scrollView();  
