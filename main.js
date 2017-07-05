@@ -31,8 +31,12 @@ var images =['images/Steven.jpg','images/soccer.jpg',
 window.onload = function(){
   $('#page0').scrollView();  
   $(images).preload();
-  $('#loader').css('top','-100vh');
-  $('#loader').css ('animation-play-state','paused');
+  $('.page-container').css('height',window.innerHeight+"px");
+  if(window.matchMedia("(max-width: 480px)").matches){
+    $('#mainCont').css('height',(window.innerHeight-64-72)+"px");
+    $('#timeline').css('height',(window.innerHeight-64)+"px");
+  }
+  $('#loader').css({'top':'-100vh','animation-play-state':'paused'});
 }
 
 //scroll position detection ---------------------------------------------------------------
